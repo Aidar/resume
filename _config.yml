@@ -23,7 +23,7 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "Phone/Telegram/WhatsApp: +7(963)929-03-99 • Email: aidar.gf@gmail.com"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>Меня зовут Айдар. На протяжении последних нескольких лет я занимаюсь разработкой iOS-приложений. Последний год руковожу командами мобильной разработки. Был свой стартап для перепродажи <a href="rvnt.ru">">REVENT<a>.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
