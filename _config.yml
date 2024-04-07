@@ -10,20 +10,20 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Айдар Галимов"
+resume_name:                    "Aidar Galimov"
 resume_title:                   "iOS Developer / Project Manager"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "aidar.gf@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "+7(963)929-03-99"
-resume_contact_address:         "Moscow, Russia"
+resume_contact_telephone:       ""
+resume_contact_address:         ""
 
-resume_header_contact_info:     "Phone/Telegram/WhatsApp: +7(963)929-03-99 • Email: aidar.gf@gmail.com • Moscow, Russia"
+resume_header_contact_info:     "Telegram: @hiprozem • Email: aidar.gf@gmail.com"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>Меня зовут Айдар, мне 23. На протяжении последних нескольких лет я занимаюсь разработкой iOS-приложений. Последний год руковожу командами мобильной разработки. За последние 5 лет я полностью реализовал 4 приложения и создал свой стартап REVENT. Люблю осваивать новые технологии.</p>"
+resume_header_intro: "<p>My name is Aidar, I'm 26. Over the past few years, I've been developing iOS applications. For the last year I have been leading mobile development teams. Over the past 6 years, I have fully implemented 4 applications and created my own startup REVENT. I love learning new technologies.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -50,7 +50,7 @@ resume_social_links:
   resume_facebook_url:          "https://www.facebook.com/hiprozem/"
   #resume_twitter_url:           "http://twitter.com/jglovier"
   resume_dribbble_url:          "https://dribbble.com/hiprozem"
-  #resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/aidar-galimov"
   #resume_instagram_url:         "insert your Instagram URL here"
   #resume_website_url:           "http://joelglovier.com"
   #resume_medium_url:            "https://medium.com/@jglovier"

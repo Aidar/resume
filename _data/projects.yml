@@ -4,28 +4,28 @@
 # SpotPet
 - project: SpotPet
   role: Project Manager / iOS Developer
-  duration: Сентябрь, 2018 — по настоящее время
+  duration: September, 2018 - May. 2019
   url: "https://keep.pet/spotpet"
-  description: SpotPet - это геолакационный сервис для владельцев питомцев. Внутри приложения можно размещать объявления о пропаже питомцев, магазины и др, а также общаться с другими питомцами с помощью чата. Я занимался написанием технического задания, решением вопросов с заказчиком, руководил командой разработки iOS, Android приложений и сервера, а также непосредственно кодил iOS-приложение.
+  description: SpotPet is a geolocation service for pet owners. Inside the application, you can post announcements about missing pets, shops, etc., as well as communicate with other pets using chat. I was involved in writing technical specifications, resolving issues with the customer, leading the development team for iOS, Android applications and the server, and also directly coding the iOS application.
   frameworks: Swift, MVC, Coordinators, Alamofire, Moya, SwiftyJSON, RxSwift, Realm, GooglePlaces, APNs, SnapKit, AloeStackView, WebSocket, Fastlane, App Center, SwiftLint, Cocoapods, Git, TestFlight
 
 - project: KeepPet
   role: Project Manager / iOS Developer
-  duration: Январь, 2018 — Сентябрь, 2018
+  duration: January, 2018 — September, 2018
   url: "https://keep.pet/keeppet"
-  description: Сервис является потенциальной заменой международного паспорта питомца в электронном формате с использованием технологии блокчейн Ethereum. Это первый проект, в котором я не только писал приложение, но и руководил командой разработки и утверждал задачи с клиентом.
+  description: The service is a potential replacement for an international pet passport in electronic format using Ethereum blockchain technology. This is the first project in which I not only wrote the application, but also led the development team and approved tasks with the client.
   frameworks: Swift, MVC, Coordinators, Alamofire, Moya, SwiftyJSON, RxSwift, Realm, SnapKit, Firebase, Lottie, Firebase, FacebookLogin, Fabric, Crashlytics, SwiftLint, Cocoapods, Git, TestFlight
 
 - project: Mirage
   role: iOS Developer
-  duration: Сентябрь, 2017 — Январь, 2018
+  duration: September, 2017 — January, 2018
   url: "https://juntoteam.com/portfolio-item/mirage-2/"
-  description: Приложение для распознования всех мировых достопримечательностей. Я сделал полностью клиентскую часть. Сервис разарабатывался совместно с командой Prisma. В приложении можно скачать пак города или страны и ходить распозновать достопримечательности без подключения к сети.
+  description: An application for recognizing all the world's landmarks. I made a completely client-side part. The service was developed together with the Prisma team. In the application, you can download a city or country pack and go to recognize the sights without connecting to the network.
   frameworks: Swift, MVC, GoogleMaps, AWSS3, Alamofire, Realm, SnapKit, Firebase, PBJVision, Fabric, Crashlytics, SwiftLint, Cocoapods, Git, TensorFlow, TestFlight
 
 - project: REVENT
   role: CEO / iOS Developer
-  duration: Февраль, 2017 — Февраль, 2019
+  duration: February, 2017 — February, 2019
   url: "https://www.rvnt.ru"
-  description: Сервис предлагает услуги для размещения объявлений о продаже одежды, общения продавцов и покупателелей в чате приложения. В проекте я занимался созданием мобильного приложения, частично писал сервер, а также вел всю бизнес-стратегию проекта, включая коллаборации с известными людьми и площадками и следил за тем, чтобы проект был хорошо защищен и не падал, так как мы даже успели подвергнуться DDoS-атаке.
+  description: The service offers services for posting advertisements for the sale of clothing, communication between sellers and buyers in the application chat. In the project, I was involved in the creation of a mobile application, partially wrote the server, and also managed the entire business strategy of the project, including collaborations with famous people and sites and made sure that the project was well protected and did not crash, since we even managed to be subjected to DDoS- attack.
   frameworks: Swift, Python, Django, MVC, Alamofire, Unboxed, Realm, Storyboards, SwiftyVK, APNs, Firebase, Fabric, Crashlytics, SwiftLint, Cocoapods, Git, TestFlight
