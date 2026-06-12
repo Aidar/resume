@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foody Guide — find your next favorite place</title>
+<meta name="description" content="Foody Guide is an iOS app for real foodies: a hand-picked selection of modern, tasty, proven places. Find cafes nearby, filter by category, save favorites.">
+<meta property="og:title" content="Foody Guide">
+<meta property="og:description" content="A hand-picked guide to modern, tasty, proven places.">
+<meta property="og:image" content="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ab/57/cc/ab57cc09-0d46-96cb-9f47-f5d2a4263ca8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg">
+<style>
+  :root {
+    --yellow: #FFCC30;
+    --blue: #3C8AFF;
+    --red: #EB5757;
+    --ink: #1c1c1e;
+    --muted: #6e6e73;
+    --bg: #fffdf7;
+    --card: #ffffff;
+    --border: #f0e8d0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+  /* Hero */
+  .hero { padding: 72px 0 56px; text-align: center; }
+  .hero .icon {
+    width: 120px; height: 120px; border-radius: 27px;
+    box-shadow: 0 16px 40px rgba(255, 204, 48, 0.45);
+    margin-bottom: 24px;
+  }
+  .hero h1 { font-size: 44px; letter-spacing: -0.03em; line-height: 1.15; }
+  .hero .tagline {
+    font-size: 20px; color: var(--muted);
+    max-width: 520px; margin: 14px auto 0;
+  }
+  .store-badge { display: inline-block; margin-top: 32px; transition: transform .12s ease; }
+  .store-badge:hover { transform: scale(1.04); }
+  .store-badge img { height: 54px; display: block; }
+
+  /* Features */
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 16px;
+    padding: 24px 0 8px;
+  }
+  .feature {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px 20px;
+    text-align: left;
+  }
+  .feature .emoji { font-size: 30px; display: block; margin-bottom: 10px; }
+  .feature h3 { font-size: 16px; margin-bottom: 4px; }
+  .feature p { font-size: 14px; color: var(--muted); }
+
+  /* Screenshots */
+  .shots {
+    display: flex; justify-content: center; gap: 20px;
+    padding: 48px 0 16px; flex-wrap: wrap;
+  }
+  .shots img {
+    width: 220px; max-width: 60vw;
+    border-radius: 24px;
+    border: 1px solid var(--border);
+    box-shadow: 0 14px 36px rgba(0,0,0,0.10);
+  }
+  .shots img:nth-child(2) { transform: translateY(18px); }
+  @media (max-width: 720px) { .shots img:nth-child(2) { transform: none; } }
+
+  /* About */
+  .about { max-width: 620px; margin: 48px auto 0; text-align: center; }
+  .about p { color: #3a3a3c; font-size: 17px; }
+  .about p + p { margin-top: 12px; }
+
+  /* CTA */
+  .cta {
+    margin: 56px auto 0; max-width: 620px;
+    background: var(--yellow);
+    border-radius: 20px;
+    padding: 36px 28px; text-align: center;
+    box-shadow: 0 12px 32px rgba(255, 204, 48, 0.35);
+  }
+  .cta h2 { font-size: 24px; letter-spacing: -0.02em; }
+  .cta p { margin-top: 6px; font-size: 15px; color: rgba(28,28,30,0.75); }
+  .cta a.button {
+    display: inline-block; margin-top: 18px;
+    background: var(--ink); color: #fff;
+    text-decoration: none; font-size: 16px; font-weight: 600;
+    padding: 13px 28px; border-radius: 12px;
+    transition: transform .12s ease;
+  }
+  .cta a.button:hover { transform: scale(1.04); }
+
+  /* Footer */
+  footer {
+    margin-top: 72px; padding: 28px 0 44px;
+    border-top: 1px solid var(--border);
+    text-align: center; font-size: 14px; color: var(--muted);
+  }
+  footer nav { margin-bottom: 10px; }
+  footer nav a { color: var(--blue); text-decoration: none; margin: 0 10px; }
+  footer a.mail { color: var(--blue); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ab/57/cc/ab57cc09-0d46-96cb-9f47-f5d2a4263ca8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="Foody Guide app icon">
+    <h1>Foody Guide</h1>
+    <p class="tagline">A hand-picked guide to modern, tasty, proven places — made for real foodies.</p>
+    <a class="store-badge" href="https://apps.apple.com/app/foody-guide/id1577864366" rel="noopener">
+      <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us" alt="Download on the App Store">
+    </a>
+  </header>
+
+  <section class="features">
+    <div class="feature">
+      <span class="emoji">📍</span>
+      <h3>Cafes nearby</h3>
+      <p>See great places around you on the map — plus a home-screen widget with the closest ones.</p>
+    </div>
+    <div class="feature">
+      <span class="emoji">🥐</span>
+      <h3>Smart filters</h3>
+      <p>Breakfast spots, places to work from, dog-friendly cafes and more — filter by what matters.</p>
+    </div>
+    <div class="feature">
+      <span class="emoji">📖</span>
+      <h3>All the essentials</h3>
+      <p>Menu, phone number and social links for every place — no digging around.</p>
+    </div>
+    <div class="feature">
+      <span class="emoji">❤️</span>
+      <h3>Favorites</h3>
+      <p>Save places you love and keep them synced across your devices.</p>
+    </div>
+  </section>
+
+  <section class="shots">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/48/cf/20/48cf2034-4d91-c317-e871-e39686f6ecc8/d9a689b6-43d9-4299-8553-c7291576b91a_5.5_ENG__U00281_U0029.jpg/392x696bb.jpg" alt="Foody Guide screenshot — list of cafes">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/b1/7e/9b/b17e9bdd-159f-79e5-df42-a484c5d18829/76df8ee0-a7fd-42b8-8f71-f1fb96e1e14d_5.5_ENG__U00282_U0029.jpg/392x696bb.jpg" alt="Foody Guide screenshot — cafe details">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/7a/82/8f/7a828f72-5c91-7779-1ef8-209f97bf4b26/3776cafe-916d-4926-a96e-e03819a62505_5.5_ENG__U00283_U0029.jpg/392x696bb.jpg" alt="Foody Guide screenshot — map of nearby places">
+  </section>
+
+  <section class="about">
+    <p>A foodie is a person with a passionate interest in food. Foody Guide is not a gourmet catalog — it's a curated selection of places that are actually worth your time, from the best street food to conceptual cafe bars.</p>
+    <p>Have an idea, or want to add a place? We answer fast: <a class="mail" href="mailto:helpfoody@gmail.com" style="color: var(--blue); text-decoration: none;">helpfoody@gmail.com</a></p>
+  </section>
+
+  <section class="cta">
+    <h2>Hungry already?</h2>
+    <p>Foody Guide is free on the App Store.</p>
+    <a class="button" href="https://apps.apple.com/app/foody-guide/id1577864366" rel="noopener">Get the app</a>
+  </section>
+
+  <footer>
+    <nav>
+      <a href="/foody/support/">Support</a>
+      <a href="/foody/privacy-policy/">Privacy Policy</a>
+      <a href="/foody/terms-of-use/">Terms of Use</a>
+    </nav>
+    Contact: <a class="mail" href="mailto:helpfoody@gmail.com">helpfoody@gmail.com</a><br>
+    © 2026 Aidar Galimov
+  </footer>
+
+</div>
+</body>
+</html>
