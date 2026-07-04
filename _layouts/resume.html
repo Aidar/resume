@@ -13,9 +13,12 @@
 
         <div class="masthead-meta">
           <span class="meta-label">Curriculum Vitae</span>
-          {% if site.resume_looking_for_work == 'yes' %}
-          <span class="meta-label status no-print"><span class="status-dot" aria-hidden="true"></span>Open to opportunities</span>
-          {% endif %}
+          <span class="masthead-meta-group">
+            {% if site.resume_looking_for_work == 'yes' %}
+            <span class="meta-label status no-print"><span class="status-dot" aria-hidden="true"></span>Open to opportunities</span>
+            {% endif %}
+            <button class="meta-label pdf-button no-print" type="button" onclick="window.print()">Save as PDF<span aria-hidden="true"> ↓</span></button>
+          </span>
         </div>
 
         <div class="identity">

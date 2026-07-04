@@ -23,7 +23,7 @@ resume_contact_address:         ""
 resume_header_contact_info:     'Telegram: <a href="https://t.me/hiprozem">@hiprozem</a> • Email: <a href="mailto:aidar.gf@gmail.com">aidar.gf@gmail.com</a>'
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>I'm a senior iOS developer with 8+ years of experience shipping consumer apps — most recently Shapeyard, one of the most popular 3D modeling apps for iPhone and iPad. I've led mobile teams, run projects end to end, and co-founded my own startup, REVENT. I love learning new technologies.</p>"
+resume_header_intro: "<p>I'm a senior iOS developer with 8+ years of experience shipping consumer apps — most recently Shapeyard, one of the most popular 3D modeling apps for iPhone and iPad, rated 4.5★ by 1.3M+ users. I've led mobile teams, run projects end to end, and co-founded my own startup, REVENT. I love learning new technologies.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,

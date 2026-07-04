@@ -3,13 +3,13 @@
   url: "https://shapeyard.org/"
   position: Senior iOS Developer
   duration: April, 2019 — December, 2024
-  summary: At Magic Unicorn, a New York–based product studio, I spent over five years building Shapeyard — one of the most popular 3D modeling apps for iPhone and iPad. I developed its UIKit and SwiftUI interfaces, the 3D editor tooling, core business logic, server integration, and caching.
+  summary: At Magic Unicorn, a New York–based product studio, I spent over five years building Shapeyard — one of the most popular 3D modeling apps for iPhone and iPad, rated 4.5★ by 1.3M+ users. I developed its UIKit and SwiftUI interfaces, core business logic, StoreKit subscriptions, server integration, and caching, working with Swift Concurrency and Combine.
 
 - company: Junto
   url: "https://www.juntoteam.com/"
   position: iOS Developer / Project Manager
   duration: September, 2017 — May, 2019
-  summary: At the Junto app development studio I shipped iOS apps end to end and automated the processes around them, then grew into managing the studio's mobile teams — writing technical specifications, planning work in Jira, communicating with clients, and delivering quality apps on tight deadlines.
+  summary: At the Junto app development studio I shipped iOS apps end to end and automated the processes around them, then grew into managing the studio's mobile teams of 5–10 people — writing technical specifications, planning work in Jira, communicating with clients, and delivering quality apps on tight deadlines.
 
 - company: REVENT
   url: "https://rvnt.ru/"
