@@ -1,31 +1,36 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
 
-# SpotPet
+- project: Shapeyard
+  role: Senior iOS Developer
+  duration: April, 2019 — December, 2024
+  url: "https://apps.apple.com/app/id1397002448"
+  description: One of the most popular 3D modeling apps for iPhone and iPad — sketch, sculpt, and export models to game engines and 3D printers. I built the modeling interface and tool UI, core business logic, server communication, and the caching layer.
+  frameworks: Swift, UIKit, SwiftUI, REST API, Caching, Git, TestFlight
+
 - project: SpotPet
   role: Project Manager / iOS Developer
-  duration: September, 2018 - May. 2019
+  duration: September, 2018 — May, 2019
   url: "https://keep.pet/spotpet"
-  description: SpotPet is a geolocation service for pet owners. Inside the application, you can post announcements about missing pets, shops, etc., as well as communicate with other pets using chat. I was involved in writing technical specifications, resolving issues with the customer, leading the development team for iOS, Android applications and the server, and also directly coding the iOS application.
+  description: A geolocation service for pet owners — lost-pet announcements, pet-friendly places, and chat. I wrote the technical specification, led the iOS, Android, and backend teams, and built the iOS app myself.
   frameworks: Swift, MVC, Coordinators, Alamofire, Moya, SwiftyJSON, RxSwift, Realm, GooglePlaces, APNs, SnapKit, AloeStackView, WebSocket, Fastlane, App Center, SwiftLint, Cocoapods, Git, TestFlight
 
 - project: KeepPet
   role: Project Manager / iOS Developer
   duration: January, 2018 — September, 2018
   url: "https://keep.pet/keeppet"
-  description: The service is a potential replacement for an international pet passport in electronic format using Ethereum blockchain technology. This is the first project in which I not only wrote the application, but also led the development team and approved tasks with the client.
-  frameworks: Swift, MVC, Coordinators, Alamofire, Moya, SwiftyJSON, RxSwift, Realm, SnapKit, Firebase, Lottie, Firebase, FacebookLogin, Fabric, Crashlytics, SwiftLint, Cocoapods, Git, TestFlight
+  description: An electronic pet passport built on the Ethereum blockchain — the first project where I both wrote the app and led the development team, agreeing scope directly with the client.
+  frameworks: Swift, MVC, Coordinators, Alamofire, Moya, SwiftyJSON, RxSwift, Realm, SnapKit, Firebase, Lottie, FacebookLogin, Fabric, Crashlytics, SwiftLint, Cocoapods, Git, TestFlight
 
 - project: Mirage
   role: iOS Developer
   duration: September, 2017 — January, 2018
   url: "https://juntoteam.com/portfolio-item/mirage-2/"
-  description: An application for recognizing all the world's landmarks. I made a completely client-side part. The service was developed together with the Prisma team. In the application, you can download a city or country pack and go to recognize the sights without connecting to the network.
+  description: A landmark recognition app built together with the Prisma team. I developed the entire client side, including downloadable city packs that recognize sights offline using on-device TensorFlow.
   frameworks: Swift, MVC, GoogleMaps, AWSS3, Alamofire, Realm, SnapKit, Firebase, PBJVision, Fabric, Crashlytics, SwiftLint, Cocoapods, Git, TensorFlow, TestFlight
 
 - project: REVENT
   role: CEO / iOS Developer
   duration: February, 2017 — February, 2019
   url: "https://www.rvnt.ru"
-  description: The service offers services for posting advertisements for the sale of clothing, communication between sellers and buyers in the application chat. In the project, I was involved in the creation of a mobile application, partially wrote the server, and also managed the entire business strategy of the project, including collaborations with famous people and sites and made sure that the project was well protected and did not crash, since we even managed to be subjected to DDoS- attack.
+  description: A marketplace for buying and selling fashion with in-app chat between sellers and buyers. I built the iOS app, wrote part of the Django backend, and ran the product and business strategy — including keeping the service alive through a DDoS attack.
   frameworks: Swift, Python, Django, MVC, Alamofire, Unboxed, Realm, Storyboards, SwiftyVK, APNs, Firebase, Fabric, Crashlytics, SwiftLint, Cocoapods, Git, TestFlight

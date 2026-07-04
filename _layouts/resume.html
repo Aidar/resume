@@ -71,32 +71,6 @@
 
       <main>
 
-        {% if site.resume_section_education %}
-        <section class="section">
-          <div class="section-label">
-            <h2>Education</h2>
-          </div>
-          <div class="section-body">
-            {% for education in site.data.education %}
-            <article class="item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-              <h3 class="item-title" itemprop="name">{{ education.uni }}</h3>
-              <p class="item-meta" itemprop="description">{{ education.degree }} · {{ education.year }}</p>
-              {% if education.summary %}
-              <p class="item-copy">{{ education.summary }}</p>
-              {% endif %}
-              {% if education.awards %}
-              <ul class="item-list">
-                {% for award in education.awards %}
-                <li>{{ award.award }}</li>
-                {% endfor %}
-              </ul>
-              {% endif %}
-            </article>
-            {% endfor %}
-          </div>
-        </section>
-        {% endif %}
-
         {% if site.resume_section_experience %}
         <section class="section">
           <div class="section-label">
@@ -150,6 +124,32 @@
             <article class="item">
               <h3 class="item-title">{{ skill.skill }}</h3>
               <p class="item-copy">{{ skill.description }}</p>
+            </article>
+            {% endfor %}
+          </div>
+        </section>
+        {% endif %}
+
+        {% if site.resume_section_education %}
+        <section class="section">
+          <div class="section-label">
+            <h2>Education</h2>
+          </div>
+          <div class="section-body">
+            {% for education in site.data.education %}
+            <article class="item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+              <h3 class="item-title" itemprop="name">{{ education.uni }}</h3>
+              <p class="item-meta" itemprop="description">{{ education.degree }} · {{ education.year }}</p>
+              {% if education.summary %}
+              <p class="item-copy">{{ education.summary }}</p>
+              {% endif %}
+              {% if education.awards %}
+              <ul class="item-list">
+                {% for award in education.awards %}
+                <li>{{ award.award }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
             </article>
             {% endfor %}
           </div>

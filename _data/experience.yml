@@ -1,12 +1,18 @@
 # Jobs
+- company: Magic Unicorn
+  url: "https://shapeyard.org/"
+  position: Senior iOS Developer
+  duration: April, 2019 — December, 2024
+  summary: At Magic Unicorn, a New York–based product studio, I spent over five years building Shapeyard — one of the most popular 3D modeling apps for iPhone and iPad. I developed its UIKit and SwiftUI interfaces, the 3D editor tooling, core business logic, server integration, and caching.
+
 - company: Junto
   url: "https://www.juntoteam.com/"
   position: iOS Developer / Project Manager
   duration: September, 2017 — May, 2019
-  summary: At the Junto app development studio, I improved my experience in creating iOS projects, learned how to automate app-related processes, and also began managing development teams. I mastered Agile, learned to use Jira, write technical specifications, communicate with the customer and implement high-quality applications in a short time. Currently I am responsible for all mobile applications in the company.
+  summary: At the Junto app development studio I shipped iOS apps end to end and automated the processes around them, then grew into managing the studio's mobile teams — writing technical specifications, planning work in Jira, communicating with clients, and delivering quality apps on tight deadlines.
 
 - company: REVENT
   url: "https://rvnt.ru/"
-  position: CEO / iOS-Developer / UI Designer
+  position: CEO / iOS Developer / UI Designer
   duration: February, 2017 — February, 2019
-  summary: My first startup and big project. I created it with my classmate. My competencies included the development of an iOS application, the design and design of the application and website interface, and the distribution of development tasks for the server and WEB parts of the service. During the development of the service, I mastered all the main stages of implementing IT projects, encountered a large number of problems, and now I understand how difficult and important it is to implement high-quality services. The application was downloaded more than 20 thousand times and almost 5 thousand people registered in it without much investment in marketing.
+  summary: My first startup, co-founded with a classmate — a fashion resale marketplace. I designed the interface, built the iOS app, coordinated the backend and web development, and ran the business strategy. The app reached 20K+ downloads and nearly 5K registered users with almost no marketing spend.

@@ -1,6 +1,6 @@
 # Site settings
 title: "Aidar Galimov. CV"
-description: "Experienced iOS Developer and Project Manager"
+description: "Senior iOS Developer and Project Manager"
 
 # Build settings
 markdown: kramdown
@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Aidar Galimov"
-resume_title:                   "iOS Developer / Project Manager"
+resume_title:                   "Senior iOS Developer / Project Manager"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "aidar.gf@gmail.com"
@@ -20,10 +20,10 @@ resume_contact_email:           "aidar.gf@gmail.com"
 resume_contact_telephone:       ""
 resume_contact_address:         ""
 
-resume_header_contact_info:     "Telegram: @hiprozem • Email: aidar.gf@gmail.com"
+resume_header_contact_info:     'Telegram: <a href="https://t.me/hiprozem">@hiprozem</a> • Email: <a href="mailto:aidar.gf@gmail.com">aidar.gf@gmail.com</a>'
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>My name is Aidar, I'm 28. Over the past few years, I've been developing iOS applications. For the last year I have been leading mobile development teams. Over the past 8 years, I have fully implemented 4 applications and created my own startup REVENT. I love learning new technologies.</p>"
+resume_header_intro: "<p>I'm a senior iOS developer with 8+ years of experience shipping consumer apps — most recently Shapeyard, one of the most popular 3D modeling apps for iPhone and iPad. I've led mobile teams, run projects end to end, and co-founded my own startup, REVENT. I love learning new technologies.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
