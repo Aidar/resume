@@ -1,14 +1,8 @@
 ---
 ---
 
-// "Reset" styles and SCSS reusable components
+// "Reset" styles
 @import "normalize";
-@import "mixins";
-@import "variables";
 
-// Generic site base & layout styles
-@import "base";
-@import "layout";
-
-// Layouts
-@import "resume";
+// The whole design system
+@import "rams";
