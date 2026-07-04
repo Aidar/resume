@@ -109,8 +109,8 @@ a:focus-visible {
 
 .avatar {
   display: block;
-  width: 88px;
-  height: 88px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1.75rem;
@@ -124,7 +124,7 @@ a:focus-visible {
 
 .identity-name {
   margin: 0;
-  font-size: clamp(2.75rem, 9vw, 5.5rem);
+  font-size: clamp(2.25rem, 7vw, 4.25rem);
   font-weight: 700;
   line-height: 0.98;
   letter-spacing: -0.035em;
