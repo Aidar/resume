@@ -1,0 +1,18 @@
+# Aidar Galimov
+
+> Senior iOS developer and product manager with 8+ years of experience shipping consumer apps. Open to opportunities.
+
+Key facts:
+- Senior iOS Developer at Magic Unicorn Inc. (April 2019 — December 2024), where he spent over five years building Shapeyard — one of the most popular 3D modeling apps for iPhone and iPad with 1.3M+ users. Built its UIKit and SwiftUI interfaces, core business logic, StoreKit subscriptions, server integration, and caching.
+- Previously iOS Developer / Project Manager at Junto (2017—2019), leading mobile teams of 5–10 people.
+- Co-founded REVENT (2017—2019), a fashion resale marketplace: 20K+ downloads, ~5K registered users.
+- Stack: Swift, SwiftUI, UIKit, Swift Concurrency, Combine, StoreKit, RxSwift, Realm, Fastlane.
+- Education: Bachelor's degree in Computer Science, RANEPA (2015—2019).
+- Contact: aidar.gf@gmail.com, Telegram @hiprozem.
+
+## Links
+
+- [CV](https://aidar.xyz/): full resume
+- [GitHub](https://github.com/aidar/)
+- [LinkedIn](https://www.linkedin.com/in/aidar-galimov)
+- [Shapeyard on the App Store](https://apps.apple.com/app/id1397002448)

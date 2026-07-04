@@ -12,12 +12,47 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta property="og:title" content="{{ site.title }}">
   <meta property="og:description" content="{{ site.description }}">
   <meta property="og:type" content="profile">
-  <meta property="og:url" content="https://aidar.xyz/">
-  <meta property="og:image" content="https://aidar.xyz/images/og.png">
+  <meta property="og:url" content="{{ site.url }}/">
+  <meta property="og:image" content="{{ site.url }}/images/og.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.resume_name }}",
+    "url": "{{ site.url }}/",
+    "image": "{{ site.url }}/images/avatar.jpg",
+    "jobTitle": "{{ site.resume_title }}",
+    "email": "mailto:{{ site.resume_contact_email }}",
+    "description": "{{ site.description }}",
+    "sameAs": [
+      {% if site.resume_social_links.resume_github_url %}"{{ site.resume_social_links.resume_github_url }}",{% endif %}
+      {% if site.resume_social_links.resume_linkedin_url %}"{{ site.resume_social_links.resume_linkedin_url }}",{% endif %}
+      {% if site.resume_social_links.resume_dribbble_url %}"{{ site.resume_social_links.resume_dribbble_url }}",{% endif %}
+      {% if site.resume_social_links.resume_facebook_url %}"{{ site.resume_social_links.resume_facebook_url }}",{% endif %}
+      "https://t.me/hiprozem"
+    ],
+    "knowsAbout": [
+      "iOS development", "Swift", "SwiftUI", "UIKit", "Swift Concurrency",
+      "Combine", "StoreKit", "RxSwift", "Realm", "Fastlane",
+      "Project management", "Agile", "Team leadership"
+    ],
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "RANEPA (Russian Academy of National Economy and Public Administration)"
+    },
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Senior iOS Developer",
+      "skills": "Swift, SwiftUI, UIKit, Swift Concurrency, Combine, StoreKit, project management"
+    }
+  }
+  </script>
 </head>

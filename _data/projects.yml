@@ -4,7 +4,7 @@
   role: Senior iOS Developer
   duration: April, 2019 — December, 2024
   url: "https://apps.apple.com/app/id1397002448"
-  description: One of the most popular 3D modeling apps for iPhone and iPad — sketch, sculpt, and export models to game engines and 3D printers — rated 4.5★ by 1.3M+ users. I built the modeling interface and tool UI, core business logic, StoreKit subscriptions, server communication, and the caching layer.
+  description: One of the most popular 3D modeling apps for iPhone and iPad, with 1.3M+ users — sketch, sculpt, and export models to game engines and 3D printers. I built the modeling interface and tool UI, core business logic, StoreKit subscriptions, server communication, and the caching layer.
   frameworks: Swift, UIKit, SwiftUI, Swift Concurrency, Combine, StoreKit, REST APIs, Git, TestFlight
 
 - project: SpotPet
